@@ -1,5 +1,4 @@
 # 3.11
-public class MyClass {
-    public static int count = 0;
-    // 其他成员变量和方法
-}
+MyClass.count = 10; // 通过类名访问
+MyClass obj = new MyClass();
+obj.count = 20; // 通过实例名访问
